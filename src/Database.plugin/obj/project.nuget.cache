@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "BjwF5Kq/unbOY3CH03i1S8htQ3/sBXhCvq6gI/q5Lrpys5zq68LuTKUnrdSdI1FLWIwa/6esviw8AMhaYYIA1A==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a1jonpou\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+    "C:\\Users\\a1jonpou\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\a1jonpou\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.4\\microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",
+    "C:\\Users\\a1jonpou\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\a1jonpou\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\a1jonpou\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\a1jonpou\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

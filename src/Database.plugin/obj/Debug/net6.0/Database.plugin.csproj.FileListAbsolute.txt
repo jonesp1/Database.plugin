@@ -1,0 +1,12 @@
+C:\Development\private_projects\Database.plugin\src\Database.plugin\bin\Debug\net6.0\Database.plugin.deps.json
+C:\Development\private_projects\Database.plugin\src\Database.plugin\bin\Debug\net6.0\Database.plugin.dll
+C:\Development\private_projects\Database.plugin\src\Database.plugin\bin\Debug\net6.0\Database.plugin.pdb
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\Database.plugin.csproj.AssemblyReference.cache
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\Database.plugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\Database.plugin.AssemblyInfoInputs.cache
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\Database.plugin.AssemblyInfo.cs
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\Database.plugin.csproj.CoreCompileInputs.cache
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\Database.plugin.dll
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\refint\Database.plugin.dll
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\Database.plugin.pdb
+C:\Development\private_projects\Database.plugin\src\Database.plugin\obj\Debug\net6.0\ref\Database.plugin.dll
