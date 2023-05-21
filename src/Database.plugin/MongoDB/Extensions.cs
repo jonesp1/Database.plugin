@@ -9,7 +9,7 @@ using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
 
 
-namespace Play.Common.MongoDB
+namespace Database.plugin.MongoDB
 {
 
     public static class Extensions
