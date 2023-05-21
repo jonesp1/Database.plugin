@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AzByfBD0+4LKdeMlYw2HsmzBl00AgH3YtBXI59+2Ay4nN+effxHWNLF1bTbwPb1/jCyMAO1PMPNNqQ09U1K3zA==",
+  "dgSpecHash": "JjALVGd8B7uOz27t51A1rGdO7sdQ00jYbIYFdqoUKvu150vbo/tyTdkCf0A/aMhT+dIHWg9czIKN/6VUvoVYAQ==",
   "success": true,
-  "projectFilePath": "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
+  "projectFilePath": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a1jonpou\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\a1jonpou\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {}
+    "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {}
   },
   "projects": {
-    "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {
+    "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
+        "projectUniqueName": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
         "projectName": "Database.plugin",
-        "projectPath": "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
+        "projectPath": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
         "packagesPath": "C:\\Users\\a1jonpou\\.nuget\\packages\\",
-        "outputPath": "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\obj\\",
+        "outputPath": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a1jonpou\\AppData\\Roaming\\NuGet\\NuGet.Config"
