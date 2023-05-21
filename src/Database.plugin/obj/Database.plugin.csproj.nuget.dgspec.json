@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {}
+    "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {}
   },
   "projects": {
-    "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {
+    "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
+        "projectUniqueName": "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
         "projectName": "Database.plugin",
-        "projectPath": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
+        "projectPath": "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\Database.plugin.csproj",
         "packagesPath": "C:\\Users\\a1jonpou\\.nuget\\packages\\",
-        "outputPath": "C:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\obj\\",
+        "outputPath": "c:\\Development\\private_projects\\Database.plugin\\src\\Database.plugin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\a1jonpou\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,6 +51,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.1, )"
             }
           },
           "imports": [

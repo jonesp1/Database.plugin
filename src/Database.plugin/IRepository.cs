@@ -1,7 +1,13 @@
-namespace Database.plugin {
-public interface IRepository<T> where T : IEntity
+using System;
+using System.Collections.Generic;
+using System.Linq.Expressions;
+using System.Threading.Tasks;
+
+namespace Database.plugin
+{
+    public interface IRepository<T> where T : IEntity
     {
-Task CreateAsync(T entity);
+        Task CreateAsync(T entity);
         T CreateSync(T entity);
         Task<IReadOnlyCollection<T>> GetAllAsync();
 
@@ -9,7 +15,7 @@ Task CreateAsync(T entity);
         Task<T> GetAsync(string id);
 
         Task<T> GetAsync(Expression<Func<T, bool>> filter);
-         Task RemoveAsync(string id);
-         Task UpdateAsync(T entity);
+        Task RemoveAsync(string id);
+        Task UpdateAsync(T entity);
     }
 }
