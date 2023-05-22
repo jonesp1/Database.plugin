@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <ItemGroup>
     <ProjectReference Include="..\Database\Database.csproj" />
+    <PackageReference Include="MongoDB.Driver" Version="2.19.1"/>
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
