@@ -1,10 +1,9 @@
+using Amazon.Extensions.NETCore.Setup;
 using Amazon.DynamoDBv2;
-using Amazon.DynamoDBv2.DocumentModel;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using System.Threading.Tasks;
 using Database.plugin.Settings;
 using Database.plugin.DynamoDB;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
 
 namespace Database.plugin.DynamoDB
 {
@@ -38,7 +37,7 @@ namespace Database.plugin.DynamoDB
             services.AddSingleton<IRepository<T>>(serviceProvider =>
             {
                 var dynamoDBClient = serviceProvider.GetService<IAmazonDynamoDB>();
-                return new DynamoDBRepository(dynamoDBClient, tableNamePrefix);
+                return new DynamoDBRepository<T>(dynamoDBClient, tableNamePrefix);
             });
 
             return services;

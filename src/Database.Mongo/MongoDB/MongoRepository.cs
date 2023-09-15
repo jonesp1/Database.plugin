@@ -7,7 +7,7 @@ using MongoDB.Driver;
 namespace Database.plugin.MongoDB
 {
 
-    public class MongoRepository<T> : IRepository<T> where T : IEntity
+    public class MongoRepository<T> : IMongoDBRepository<T> where T : IEntity
     {
 
         private readonly IMongoCollection<T> dbCollection;
