@@ -1,9 +1,6 @@
-using Amazon.Extensions.NETCore.Setup;
 using Amazon.DynamoDBv2;
-using Database.plugin.Settings;
-using Database.plugin.DynamoDB;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
+using Database.plugin.Settings;
 
 namespace Database.plugin.DynamoDB
 {
@@ -11,33 +8,21 @@ namespace Database.plugin.DynamoDB
     {
         public static IServiceCollection AddDynamoDB(this IServiceCollection services)
         {
-            services.AddDefaultAWSOptions(new AWSOptions
+            services.AddSingleton(serviceProvider =>
             {
-                // Configure AWS options here if needed
-            });
-
-            services.AddSingleton<IAmazonDynamoDB>(serviceProvider =>
-            {
-                var configuration = serviceProvider.GetService<IConfiguration>();
-                var dynamoDbSettings = configuration.GetSection(nameof(DynamoDbSettings)).Get<DynamoDbSettings>();
-
-                var clientConfig = new AmazonDynamoDBConfig
-                {
-                    ServiceURL = dynamoDbSettings.ServiceUrl
-                };
-
-                return new AmazonDynamoDBClient(clientConfig);
+                var client = new AmazonDynamoDBClient(dynamoDbSettings.Region);
+                return client;
             });
 
             return services;
         }
 
-        public static IServiceCollection AddDynamoDBRepository<T>(this IServiceCollection services, string tableNamePrefix) where T : IEntity
+        public static IServiceCollection AddDynamoDBRepository<T>(this IServiceCollection services, string tableName) where T : IEntity
         {
-            services.AddSingleton<IRepository<T>>(serviceProvider =>
+            services.AddSingleton<IRepository<T>>(ServiceProvider =>
             {
-                var dynamoDBClient = serviceProvider.GetService<IAmazonDynamoDB>();
-                return new DynamoDBRepository<T>(dynamoDBClient, tableNamePrefix);
+                var client = ServiceProvider.GetService<AmazonDynamoDBClient>();
+                return new DynamoDBRepository<T>(client, tableName);
             });
 
             return services;
