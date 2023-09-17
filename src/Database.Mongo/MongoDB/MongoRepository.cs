@@ -22,7 +22,7 @@ namespace Database.plugin.MongoDB
 
         public async Task<IReadOnlyCollection<T>> GetAllAsync()
         {
-            return await dbCollection.Find(filterBuilder.Empty).ToListAsync();
+            return await dbCollection.Find(FilterDefinition<T>.Empty).ToListAsync();
         }
 
         public async Task<IReadOnlyCollection<T>> GetAllAsync(Expression<Func<T, bool>> filter)

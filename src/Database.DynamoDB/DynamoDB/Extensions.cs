@@ -10,7 +10,7 @@ namespace Database.plugin.DynamoDB
         {
             services.AddSingleton(serviceProvider =>
             {
-                var client = new AmazonDynamoDBClient(dynamoDbSettings.Region);
+                var client = new AmazonDynamoDBClient();
                 return client;
             });
 
