@@ -10,7 +10,7 @@ namespace Database.plugin.MongoDB
     public class MongoRepository<T> : IMongoDBRepository<T> where T : IEntity
     {
 
-        private readonly IMongoCollection<T> dbCollection;
+        public readonly IMongoCollection<T> dbCollection;
 
         private readonly FilterDefinitionBuilder<T> filterBuilder = Builders<T>.Filter;
 
